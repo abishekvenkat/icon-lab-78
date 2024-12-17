@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #1B1B1B;
+  --color-primary: #66FF66;
+  --color-secondary: #40E0D0;
+  --color-accent: #FF6B6B;
+  --color-panel: #2A2A2A;
+  --color-button: #404040;
+  --color-button-hover: #505050;
+}
+
+body {
+  background: linear-gradient(135deg, var(--color-bg) 0%, #252525 100%);
+  color: var(--color-secondary);
+}
+
+.retro-shadow {
+  box-shadow: 4px 4px 0px var(--color-primary);
+}
